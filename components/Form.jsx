@@ -2,7 +2,8 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='px-4 pt-24 pl-12 md:justify-around md:pt-0 md:pl-0'>
+    <div className='px-4 pl-12 -mt-20 md:justify-around md:pt-20 md:pl-0'>
+        <p className='pb-4 -mt-8 text-3xl font-semibold md:hidden text-ascot-font-color'>Harley-Davidson open face helmet for women</p>
         <form  className='w-screen space-y-4 md:w-96 text-ascot-font-color '>
             <div className='flex justify-around py-5 bg-gray-100 rounded-xl'>
                 <p className=''>Auctions Ends In:</p>

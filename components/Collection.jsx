@@ -6,13 +6,11 @@ import Hero from './Hero'
 
 const Collection = () => {
   return (
-    <>
     <div className='grid justify-center md:gap-6 md:flex md:pl-44 grid-col-1'>
         <Gallary />
         <Hero />
         <Form />
     </div>
-    </>
   )
 }
 
