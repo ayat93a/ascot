@@ -9,6 +9,10 @@ module.exports = {
 
       colors: {
         'ascot-font-color' : '#334155'
+      },
+
+      screens: {
+        'tablet': '412px',
       }
 
     },

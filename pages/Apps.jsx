@@ -6,9 +6,10 @@ import Header from '../components/Header'
 
 const Apps = () => {
   return (
-    <div className='h-fit'>
-      <Header />
+    <div className='flex flex-col md:flex-col-reverse h-fit'>
       <Collection />
+      <Header  />
+        {/* <Form /> */}
     </div>
   )
 }

@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const Gallary = () => {
   return (
-    <div className=' md:gap-4 md:grid-cols-1 md:grid'>
+    <div className='invisible  md:gap-4 md:grid-cols-1 md:grid md:visible'>
         <Image src={v4} className=' object-fit' height='80' />
         <Image src={v2} className=' object-fit' height='80' />
         <Image src={v4} className=' object-fit' height='80' />
