@@ -8,8 +8,6 @@ const Apps = () => {
     <div className='flex flex-col md:flex-col-reverse h-fit'>
       <Collection />
       <Header  />
-    
-   
     </div>
   )
 }

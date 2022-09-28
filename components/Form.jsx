@@ -22,7 +22,7 @@ const Form = () => {
                 <div className='flex pl-5 md:pl-12'>
                     <textarea className='justify-around p-1 pl-4 scale-x-95 border-2 border-gray-300 border-solid rounded-md md:scale-x-105 w-96 md:w-80 placeholder:text-gray-400 placeholder:text-lg h-36' placeholder='leave a comment...' />
                 </div>
-                <div className="flex justify-around pl-8 space-x-2 text-sm">
+                <div className="flex justify-around pl-8 space-x-2 text-sm md:pl-11">
                     <button type="button" className="justify-between inline-block p-4 -ml-3.5 font-medium leading-tight text-white uppercase transition duration-150 ease-in-out bg-red-600 shadow-md md:mx-4 md:scale-x-105 rounded-xl md:ml-0 w-80 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0">Bid 70 KWD</button>
                 </div>
                 <div className='flex justify-center pt-3'>
