@@ -7,7 +7,7 @@ import {HiShare} from 'react-icons/hi'
 const Hero = () => {
   return (
     <>
-    <div className='h-96'>
+    <div className='h-96 '>
       
         <div className='relative -mt-44 md:mt-0'>
             <Image src={hero} className='object-fit ' height='655' />
@@ -18,7 +18,6 @@ const Hero = () => {
         </div>
         
     </div>
-    <p className='text-black -mt-36'>hiii</p>
     </>
   )
 }

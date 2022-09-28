@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const Form = () => {
   return (
     <div className='px-4 pl-12 -mt-20 md:justify-around md:pt-20 md:pl-0'>
-        <p className='pb-4 pl-16 -mt-8 text-3xl font-bold md:hidden text-ascot-font-color'>Harley-Davidson open face helmet for women</p>
+        <p className='pb-4 pl-6 -mt-8 text-3xl font-bold md:hidden text-ascot-font-color'>Harley-Davidson open face helmet for women</p>
         <form  className='w-screen space-y-4 md:w-96 text-ascot-font-color '>
             <div className='flex justify-around py-5 bg-gray-100 rounded-xl'>
                 <p className=''>Auctions Ends In:</p>
